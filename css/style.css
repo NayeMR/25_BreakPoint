@@ -1,0 +1,22 @@
+.div{
+	background-color: white;
+	width: 50%;
+	height: 50%;
+	color: black;
+}
+
+@media screen and (min-width: 200px) and (max-width: 800px){
+	body{
+		background-color: black;
+	}
+}
+@media screen and (min-width: 505px) and (max-width: 1000px){
+	body{
+		background-color: purple;
+	}
+}
+@media screen and (min-width: 1000px) and (max-width: 3000px){
+	body{
+		background-color: yellow;
+	}
+}
